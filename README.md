@@ -84,7 +84,7 @@ Then refer to the [training/train_mmact_libero_action.py](training/train_mmact_l
 
 Our trained model weight can be found at: [MM-ACT-weight](huggingface_link])
 
-For **LIBERO** evalutation, please refer to [experiment/experiment_readme.md](experiment/experiment_readme.md) for detailed instructions.
+For **LIBERO** evalutation, please refer to [experiments/experiment_readme.md](experiments/experiment_readme.md) for detailed instructions.
 
 For **RoboTwin** evaluation, please follow [Robotwin_subtask](github_link) instructions.
 
