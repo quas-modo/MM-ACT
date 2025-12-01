@@ -55,4 +55,46 @@ python experiments/robot/libero/run_libero_eval.py \
 
 ## Acknowledgments
 
-This LIBERO is based on [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO), [OpenVLA](https://github.com/openvla/openvla.git). Thanks these great work.
+This LIBERO evaluation is based on [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO), [OpenVLA](https://github.com/openvla/openvla.git). Thanks these great work.
+
+# RoboTwin Evaluation
+
+## RoboTwin Setup
+
+Clone and install [RoboTwin repo](https://github.com/RoboTwin-Platform/RoboTwin.git).
+Then copy the MM-ACT RoboTwin evaluation scripts and model/training code from this repository into the corresponding locations inside the `RoboTwin` repository.
+
+```bash
+# Assume the directory layout is:
+# <your_path>/MM-ACT
+# <your_path>/RoboTwin
+
+cd <your_path>
+
+# 1) Copy MM-ACT RoboTwin evaluation scripts into RoboTwin policy directory
+cp -r MM-ACT/experiments/robot/robotwin/* RoboTwin/policy/MM-ACT/
+
+# 2) Copy MM-ACT model and training code into RoboTwin policy directory
+cp -r MM-ACT/models RoboTwin/policy/MM-ACT/
+cp -r MM-ACT/training RoboTwin/policy/MM-ACT/
+```
+
+After copying, the MM-ACT-related directory structure inside the `RoboTwin` repository will look approximately as follows (only relevant parts are shown):
+
+```text
+RoboTwin/
+  policy/
+    MM-ACT/
+      __init__.py
+      eval.sh
+      deploy_policy.py
+      deploy_policy.yml
+      models/
+        ...
+      training/
+        ...
+```
+
+## Acknowledgments
+
+This RoboTwin evaluation is based on [RoboTwin](https://github.com/RoboTwin-Platform/RoboTwin.git). Thanks these great work.
