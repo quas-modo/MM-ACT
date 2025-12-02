@@ -48,7 +48,7 @@ pip install -r requirement.txt
 - **RoboTwin**
 
   For RoboTwin datasets, we utilize a dataset sampling pipeline that includes task planning generation. You can download our [datasets](https://huggingface.co/datasets/hhyhrhy/MM-ACT-data/tree/main/RoboTwin)
-  or collect your own datasets with our pipeline in [Robotwin_subtask](github_link). This branch includes updates to original RoboTwin data collection pipeline to support our subtask text annotations. The collection usage is identical to the main branch. Please report any bugs or questions of text annotations in MM-ACT's issue.
+  or collect your own datasets with our pipeline in [Robotwin_subtask](https://github.com/RoboTwin-Platform/RoboTwin/tree/Subtask_info). This branch includes updates to original RoboTwin data collection pipeline to support our subtask text annotations. The collection usage is identical to the main branch. Please report any bugs or questions of text annotations in MM-ACT's issue.
 
 ### 3. Model Weight Preparation
 
