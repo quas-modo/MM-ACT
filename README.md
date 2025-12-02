@@ -1,6 +1,6 @@
 # MM-ACT: Learn from Multimodal Parallel Generation to Act
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-red.svg)](Arxiv_Link)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2512.00975)
 [![Hugging Face Models](https://img.shields.io/badge/%F0%9F%A4%97-Model-yellow)](https://huggingface.co/hhyhrhy/MM-ACT-Model)
 [![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97-Dataset-blue)](https://huggingface.co/datasets/hhyhrhy/MM-ACT-data)
 
